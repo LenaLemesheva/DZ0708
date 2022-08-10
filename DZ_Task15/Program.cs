@@ -5,11 +5,16 @@
 Console.Write("Введите число от 1 до 7: ");
 int number = int.Parse(Console.ReadLine());
 
+if (number > 7 || number < 1)
+{
+    Console.WriteLine("Вы ввели неверное число");
+    return;
+}
 if (number >= 6)
 {
-    Console.WriteLine($"да");
+    Console.WriteLine("да");
 }
 else
 {
-Console.WriteLine ($"нет");
+Console.WriteLine ("нет");
 }
