@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "СеминарTask26/1.0.0": {
+        "runtime": {
+          "СеминарTask26.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "СеминарTask26/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
