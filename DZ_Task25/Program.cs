@@ -3,21 +3,25 @@
 Например: 3, 5 -> 243; 2, 4 -> 16 */
 
 Console.Write("Ведите число A: ");
-int numer1 = int.Parse(Console.ReadLine());
+int number1 = int.Parse(Console.ReadLine());
 Console.Write("Ведите число B: ");
-int numer2 = int.Parse(Console.ReadLine());
+int number2 = int.Parse(Console.ReadLine());
 
-
+    if (number2 == 0)
+    {
+        Console.WriteLine($"1");
+        return;
+    }
 int Exponentiation(int A)
 {
-    int exp = numer1;
+        int exp = number1;
 
-    for (int i = 2; i <= numer2; i++)
+    for (int i = 2; i <= number2; i++)
     {
-        exp = exp * numer1;
+        exp = exp * number1;
     }
     return exp;
 }
 
-Console.Write(Exponentiation(numer2));
+Console.Write(Exponentiation(number2));
 Console.WriteLine();
