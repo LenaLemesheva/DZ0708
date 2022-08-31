@@ -1,0 +1,5 @@
+/home/dal90pc/Документы/Учеба/Знакомство с языками программирования/Семинары/DZ0708/DZ_TaskStar2/obj/Debug/net6.0/DZ_TaskStar2.csproj.AssemblyReference.cache
+/home/dal90pc/Документы/Учеба/Знакомство с языками программирования/Семинары/DZ0708/DZ_TaskStar2/obj/Debug/net6.0/DZ_TaskStar2.GeneratedMSBuildEditorConfig.editorconfig
+/home/dal90pc/Документы/Учеба/Знакомство с языками программирования/Семинары/DZ0708/DZ_TaskStar2/obj/Debug/net6.0/DZ_TaskStar2.AssemblyInfoInputs.cache
+/home/dal90pc/Документы/Учеба/Знакомство с языками программирования/Семинары/DZ0708/DZ_TaskStar2/obj/Debug/net6.0/DZ_TaskStar2.AssemblyInfo.cs
+/home/dal90pc/Документы/Учеба/Знакомство с языками программирования/Семинары/DZ0708/DZ_TaskStar2/obj/Debug/net6.0/DZ_TaskStar2.csproj.CoreCompileInputs.cache
