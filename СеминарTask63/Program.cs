@@ -10,14 +10,14 @@ N = 6 -> "1, 2, 3, 4, 5, 6" */
     Console.Write(N + ", ");
 }*/
 
-string PrintNTwo(int N, int count)
+string PrintNumToString(int step, int N)
 {
-    if (N == count) return N.ToString();  //делает строку
-    return N + ", " + PrintNTwo(N + 1, count);
+    if (step == N) return step.ToString();  //делает строку
+    return step + ", " + PrintNumToString(step + 1, N);
 }
 
 Console.Write("N = ");
 int number = int.Parse(Console.ReadLine());
 //PrintN(1, number);
-Console.WriteLine(PrintNTwo(1, number));
+Console.WriteLine(PrintNumToString(1, number));
 
